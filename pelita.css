@@ -1,0 +1,92 @@
+/* Mengatur tampilan seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #2563eb;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+/* Foto profil */
+img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    border: 5px solid #2563eb;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Judul bagian */
+h2 {
+    color: #2563eb;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Paragraf */
+p {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Daftar hobi */
+ul {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Link media sosial */
+a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #2563eb;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Efek ketika mouse diarahkan ke link */
+a:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* Tampilan layar kecil */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
+    }
+}
